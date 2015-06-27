@@ -50,7 +50,7 @@ storeall.add(store1);
 
                     _.forEach(lessons, function(lesson){
                         _.forEach(json, function(response){
-                            if (lesson.get('classNo') == response.classNo && lesson.get('lessonType') == response.ClassNo.toLoweCase().slice(0,3))_{
+                            if (lesson.get('classNo') == response.classNo && lesson.get('lessonType') == response.ClassNo.toLoweCase().slice(0,3));_{
                                 lesson.set('weekText', json.WeekText);
                                 lesson.set('dayText', json.DayText);
                                 lesson.set('startTime', new Time({hr:json.StartTime.slice(2),min:json.StartTime.slice(2,4)}));
